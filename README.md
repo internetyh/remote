@@ -1,9 +1,8 @@
 Discord bot that you can use to "remote control" your pc via discord
 - need to have node js installed
-
-requires pm2 to start/restart the bot
-- can be done by running "npm install pm2 -g"
-- to start the bot run 'pm2 start main.js --name "bot"' in a cmd in whatever directory you put it
+- requires pm2 to start/restart the bot
+  - can be done by running "npm install pm2 -g"
+  - to start the bot run 'pm2 start main.js --name "bot"' in a cmd in whatever directory you put it
 
 /run [command]
 - spawn a terminal instance and run something
