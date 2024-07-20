@@ -1,42 +1,29 @@
 requires pm2 to start/restart the bot
 - can be done by running "npm install pm2 -g"
 
-spawn a terminal instance and run something
-
 /run [command]
-
-command: the command to run
-
-reload a given command
+- spawn a terminal instance and run something
+- command: the command to run
 
 /reload
-
-deploys any functional changes to commands
+- reload a given command
 
 /deploy
-
-retarts the bot process using pm2
+- deploys any functional changes to commands
 
 /restart
-
-takes a screenshot of the desktop
+- retarts the bot process using pm2
 
 /screenshot
-
-create a new "shortcut" command
-- after a command is created need to run /deploy then /restart
+- takes a screenshot of the desktop
 
 /add_fav [command] [name] [args]
-
-command: the actual command to be run, if it has args they need to be enclosed in ${}
-
-name: the name of the command
-
-args: any args in the command, need to have the same name and are csv
-
-
-delete a non-core command
+- create a new "shortcut" command
+- after a command is created need to run /deploy then /restart
+- command: the actual command to be run, if it has args they need to be enclosed in ${}
+- name: the name of the command
+- args: any args in the command, need to have the same name and are csv
 
 /delete [command]
-
-command: the command to delete
+- delete a non-core command
+- command: the command to delete
