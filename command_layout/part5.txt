@@ -1,0 +1,13 @@
+exec(`<command>`, (error, stdout, stderr) => {
+            if (error) {
+                return interaction.reply(`Error: ${error.message}`);
+            }
+            if (stderr) {
+                return interaction.reply(`Stderr: ${stderr}`)
+            }
+            
+            return interaction.reply(`Output: ${stdout}`)
+        })
+
+	},
+};

@@ -1,0 +1,4 @@
+.addStringOption(option => 
+            option.setName('<arg>')
+                .setDescription('<arg>')
+                .setRequired(true))

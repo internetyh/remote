@@ -1,0 +1,1 @@
+const <arg> = interaction.options.getString('<arg>', true).toLowerCase();
